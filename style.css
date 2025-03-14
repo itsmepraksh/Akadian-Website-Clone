@@ -1,0 +1,812 @@
+@font-face {
+  font-family: Graphik-Medium;
+  src: url("/assets/fonts/Graphik-Medium.woff");
+}
+@font-face {
+  font-family: Graphik-Regular;
+  src: url("/assets/fonts/Graphik-Regular.woff");
+}
+@font-face {
+  font-family: Graphik-Semibold;
+  src: url("/assets/fonts/Graphik-Semibold.woff");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+}
+body main {
+  font-family: Graphik-Regular;
+  color: #282D4D;
+  width: 100%;
+}
+body main nav {
+  padding: 1rem;
+}
+body main nav .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 0.5px solid rgba(130, 130, 130, 0.295);
+  border-radius: 100px;
+}
+body main nav .navbar .logo {
+  width: 50%;
+}
+body main nav .navbar .logo img {
+  width: 100%;
+  aspect-ratio: 4/1;
+}
+body main nav .navbar i {
+  background-color: rgba(146, 146, 146, 0.167);
+  padding: 1rem;
+  border-radius: 50%;
+}
+body main .view-1 {
+  padding: 2rem 1rem;
+}
+body main .view-1 h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+  font-family: Graphik-Medium;
+  opacity: 85%;
+}
+body main .view-1 p {
+  font-family: Graphik-Regular;
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem 1.2rem;
+  opacity: 70%;
+  line-height: 1.5;
+}
+body main .view-1 .view-1-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+body main .view-1 .view-1-container .home-hero-1 {
+  width: 95%;
+  aspect-ratio: 1/1.25;
+  border-radius: 3rem;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url(/assets/images/home-hero-bkpr-508x800.jpg);
+  background-position: 0% 50%;
+  rotate: -4deg;
+}
+body main .view-1 .view-1-container .home-hero-1 .home-elem {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.324);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  font-family: Graphik-Regular;
+  color: white;
+}
+body main .view-1 .view-1-container .home-hero-1 .home-elem h2 {
+  font-size: 0.8rem;
+  z-index: 9;
+}
+body main .view-1 .view-1-container .home-hero-1 .home-elem h1 {
+  font-size: 1.5rem;
+  z-index: 9;
+}
+body main .view-1 .view-1-container .home-hero-1 .home-elem p {
+  background-color: #ff783f;
+  z-index: 9;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+}
+body main .view-1 .view-1-container .home-hero-2 {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  width: 95%;
+  aspect-ratio: 1/1.25;
+  border-radius: 3rem;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url(/assets/images/home-hero-af-508x800.jpg);
+  background-position: 0% 40%;
+  z-index: 9;
+}
+body main .view-1 .view-1-container .home-hero-2 .home-elem {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.324);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  font-family: Graphik-Regular;
+  color: white;
+}
+body main .view-1 .view-1-container .home-hero-2 .home-elem h2 {
+  font-size: 0.8rem;
+  z-index: 9;
+}
+body main .view-1 .view-1-container .home-hero-2 .home-elem h1 {
+  font-size: 1.5rem;
+  z-index: 9;
+}
+body main .view-1 .view-1-container .home-hero-2 .home-elem p {
+  background-color: #ff783f;
+  z-index: 9;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+}
+body main .view-1 .view-1-container .home-hero-3 {
+  width: 95%;
+  aspect-ratio: 1/1.25;
+  border-radius: 3rem;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url(/assets/images/home-hero-smb-508x800.jpg);
+  rotate: 4deg;
+  background-position: 0% 50%;
+}
+body main .view-1 .view-1-container .home-hero-3 .home-elem {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.324);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  font-family: Graphik-Regular;
+  color: white;
+}
+body main .view-1 .view-1-container .home-hero-3 .home-elem h2 {
+  font-size: 0.8rem;
+  z-index: 9;
+}
+body main .view-1 .view-1-container .home-hero-3 .home-elem h1 {
+  font-size: 1.5rem;
+  z-index: 9;
+}
+body main .view-1 .view-1-container .home-hero-3 .home-elem p {
+  background-color: #ff783f;
+  z-index: 9;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+}
+body main .view-2 {
+  padding: 2rem;
+}
+body main .view-2 > h1 {
+  font-family: Graphik-Regular;
+  font-size: 2.5rem;
+}
+body main .view-2 p {
+  padding-top: 1rem;
+  font-family: Graphik-Regular;
+  opacity: 60%;
+  line-height: 1.5;
+}
+body main .view-2 .view-2-container {
+  display: flex;
+  gap: 2rem;
+  overflow-x: scroll;
+  padding: 4rem 0;
+}
+body main .view-2 .view-2-container .view-2-elem {
+  width: 100%;
+  flex-shrink: 0;
+  border: 1px solid rgba(128, 128, 128, 0.281);
+  padding: 2rem;
+  border-radius: 25px;
+}
+body main .view-2 .view-2-container .view-2-elem .view2-img {
+  width: 100%;
+  overflow: hidden;
+}
+body main .view-2 .view-2-container .view-2-elem .view2-img img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .view-2 .view-2-container .view-2-elem .view2-info h2 {
+  width: 100%;
+  font-family: Graphik-Regular;
+  font-size: 1.15rem;
+}
+body main .view-2 .view-2-container .view-2-elem .view2-info p {
+  font-size: 0.8rem;
+  opacity: 75%;
+}
+body main .view-2 .view-2-container .view-2-elem .view2-info h3 {
+  padding-top: 1.5rem;
+  font-size: 1.15rem;
+  font-family: Graphik-Regular;
+  color: #ff783f;
+}
+body main .view-3 {
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+}
+body main .view-3 .hero-elem {
+  width: 100%;
+  -webkit-clip-path: polygon(0% 0%, 95% 15%, 90% 90%, 0% 100%);
+          clip-path: polygon(0% 0%, 95% 15%, 90% 90%, 0% 100%);
+}
+body main .view-3 .hero-elem img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+body main .view-3 .view3-info {
+  position: relative;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  background-color: white;
+  padding: 2rem;
+  width: 85%;
+  z-index: 9;
+  border-radius: 25px;
+}
+body main .view-3 .view3-info .view3-part1 > h1 {
+  font-size: 2.5rem;
+  letter-spacing: -2px;
+  opacity: 80%;
+}
+body main .view-3 .view3-info .view3-part1 h4 {
+  color: #ff783f;
+  padding: 2rem 0;
+  font-weight: 400;
+}
+body main .view-3 .view3-info .view3-part1 > h3 {
+  color: #ff783f;
+  padding: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.242);
+}
+body main .view-3 .view3-info .view-3-container {
+  padding: 2rem 0;
+}
+body main .view-3 .view3-info .view-3-container .view3-elem img {
+  padding: 1rem 0;
+}
+body main .view-3 .view3-info .view-3-container .view3-elem h3 {
+  padding: 1rem 0;
+  opacity: 80%;
+}
+body main .view-3 .view3-info .view-3-container .view3-elem h3 span {
+  color: #ff783f;
+}
+body main .view-3 .view3-info .view-3-container .view3-elem hr {
+  margin: 1rem 0;
+  opacity: 50%;
+}
+body main .view-3 .view3-info .view-3-container .view3-elem p {
+  padding: 1rem 0;
+  line-height: 1.5;
+  opacity: 80%;
+}
+body main .view-4 {
+  padding: 0.5rem;
+}
+body main .view-4 .view4-container {
+  background-color: rgba(128, 128, 128, 0.094);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+body main .view-4 .view4-container .view4-elem1 {
+  padding: 2rem;
+}
+body main .view-4 .view4-container .view4-elem1 h1 {
+  font-size: 1.7rem;
+  line-height: 1.3;
+}
+body main .view-4 .view4-container .view4-elem1 hr {
+  margin: 1.25rem 0;
+}
+body main .view-4 .view4-container .view4-elem1 .view-4-elem1a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .view-4 .view4-container .view4-elem1 .view-4-elem1a h2 {
+  font-size: 1.25rem;
+  color: #ff783f;
+}
+body main .view-4 .view4-container .view4-elem1 .view-4-elem1a i {
+  background-color: #ff783f;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+body main .view-4 .view4-container .view4-elem2 {
+  color: white;
+  background-image: url("https://akadian.com/wp-content/uploads/2024/12/bookkeeper1.jpg");
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 1/1.25;
+}
+body main .view-4 .view4-container .view4-elem2 .blur {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4352941176);
+  padding: 2rem;
+}
+body main .view-4 .view4-container .view4-elem2 h3 {
+  padding-top: 5rem;
+  font-size: 1.75rem;
+}
+body main .view-4 .view4-container .view4-elem2 p {
+  line-height: 1.5;
+  padding: 1.25rem 0;
+}
+body main .view-4 .view4-container .view4-elem2 h4 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #ff783f;
+  padding: 0.75rem;
+  border-radius: 10px;
+}
+body main .view-4 .view4-container .view4-elem3 {
+  padding: 1rem;
+}
+body main .view-4 .view4-container .view4-elem3 hr {
+  margin: 0 1rem;
+}
+body main .view-4 .view4-container .view4-elem3 .view4-elem {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+body main .view-4 .view4-container .view4-elem3 .view4-elem i {
+  border: 1px solid rgba(128, 128, 128, 0.226);
+  padding: 0.5rem;
+  color: #ff783f;
+  border-radius: 5px;
+}
+body main .view-6 {
+  padding: 4rem 1.15rem;
+}
+body main .view-6 .view6-container-a {
+  border-radius: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.217);
+  margin: 2rem 0;
+}
+body main .view-6 .view6-container-a .view6-elem-a {
+  padding: 2rem;
+}
+body main .view-6 .view6-container-a .view6-elem-a h1 {
+  font-size: 2rem;
+}
+body main .view-6 .view6-container-a .view6-elem-a p {
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  opacity: 80%;
+}
+body main .view-6 .view6-container-a .view6-elem-b {
+  background-image: url("https://akadian.com/wp-content/uploads/2024/12/people-4.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  aspect-ratio: 1/1;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+body main .view-6 .view6-container-a .view6-elem-b p {
+  background-color: #ff783f;
+  padding: 0.75rem 1rem;
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 15px;
+  margin-top: auto;
+}
+body main .view-6 .view6-container-b {
+  border-radius: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.217);
+  margin: 2rem 0;
+}
+body main .view-6 .view6-container-b .view6-elem-a {
+  padding: 2rem;
+}
+body main .view-6 .view6-container-b .view6-elem-a h1 {
+  font-size: 2rem;
+}
+body main .view-6 .view6-container-b .view6-elem-a p {
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  opacity: 80%;
+}
+body main .view-6 .view6-container-b .view6-elem-b {
+  background-image: url("https://akadian.com/wp-content/uploads/2024/12/people-8.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  aspect-ratio: 1/1;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+body main .view-6 .view6-container-b .view6-elem-b p {
+  background-color: #ff783f;
+  padding: 0.75rem 1rem;
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 15px;
+  margin-top: auto;
+}
+body main .view-7 {
+  width: 100%;
+  padding: 2rem;
+}
+body main .view-7 .view7-container-a {
+  padding: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+body main .view-7 .view7-container-a img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .view-7 .view7-container-b h2 {
+  padding: 1rem;
+  line-height: 1.4;
+  background-color: #f4f262;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+body main .view-7 .view7-container-b h1 {
+  font-size: 2.25rem;
+  padding: 1.5rem 0;
+}
+body main .view-7 .view7-container-b .view7-elem {
+  padding: 2rem 0;
+}
+body main .view-7 .view7-container-b .view7-elem p {
+  line-height: 1.5;
+}
+body main .view-7 .view7-container-b .view7-elem span {
+  color: #ff783f;
+  padding-right: 0.25rem;
+}
+body main .view-7 .view7-container-b .view7-elem h3 {
+  color: #ff783f;
+}
+body main .view-7 .view7-container-b .view7-elem hr {
+  margin: 1rem 0;
+}
+body main .view-7 .view7-container-b h3 {
+  color: #ff783f;
+  padding: 0.5rem;
+  border: 1px solid rgba(40, 45, 77, 0.1450980392);
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+}
+body main footer {
+  padding: 2rem;
+}
+body main footer .container-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+body main footer .container-1 .foot-elem1 .logo {
+  padding: 1rem 0;
+  width: 100%;
+}
+body main footer .container-1 .foot-elem1 .logo img {
+  width: 100%;
+  aspect-ratio: 1/0.25;
+}
+body main footer .container-1 .foot-elem1 .link-logo {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+body main footer .container-1 .foot-elem1 .link-logo i {
+  color: aliceblue;
+  background-color: #ff783f;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+body main footer .container-1 .foot-elem1 p {
+  font-weight: 700;
+}
+body main footer .container-1 .foot-elem1 hr {
+  border-color: rgba(40, 45, 77, 0.0980392157);
+  margin: 0.75rem 0;
+}
+body main footer .container-1 .foot-elem2 h2 {
+  padding: 2rem 0;
+}
+body main footer .container-1 .foot-elem2 p {
+  font-weight: 700;
+}
+body main footer .container-1 .foot-elem2 hr {
+  border-color: rgba(40, 45, 77, 0.0980392157);
+  margin: 0.75rem 0;
+}
+body main footer .container-1 .foot-elem3 h2 {
+  padding: 2rem 0;
+}
+body main footer .container-1 .foot-elem3 p {
+  font-weight: 700;
+}
+body main footer .container-1 .foot-elem3 hr {
+  border-color: rgba(40, 45, 77, 0.0980392157);
+  margin: 0.75rem 0;
+}
+body main footer .container-1 .foot-elem4 h2 {
+  padding: 2rem 0;
+}
+body main footer .container-1 .foot-elem4 p {
+  font-weight: 700;
+}
+body main footer .container-1 .foot-elem4 hr {
+  border-color: rgba(40, 45, 77, 0.0980392157);
+  margin: 0.75rem 0;
+}
+
+@media (min-width: 1024px) {
+  body main nav .navbar .logo {
+    width: 25%;
+  }
+  body main nav .navbar .logo img {
+    width: 100%;
+  }
+  body main .view-1 > h1 {
+    padding-top: 3rem;
+    font-size: 5.75rem;
+    letter-spacing: -2px;
+  }
+  body main .view-1 p {
+    padding: 2rem 6rem;
+  }
+  body main .view-1 .view-1-container {
+    padding: 2rem 3rem;
+  }
+  body main .view-1 .view-1-container .home-hero-1 {
+    aspect-ratio: 2/1.25;
+  }
+  body main .view-1 .view-1-container .home-hero-2 {
+    aspect-ratio: 2/1.25;
+  }
+  body main .view-1 .view-1-container .home-hero-3 {
+    aspect-ratio: 2/1.25;
+  }
+  body main .view-2 > h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  body main .view-2 > p {
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+  body main .view-2 .view-2-container .view-2-elem {
+    width: 50%;
+  }
+  body main .view-3 {
+    padding: 0 4rem;
+    padding-top: 6rem;
+  }
+  body main .view-3 .hero-elem img {
+    aspect-ratio: 2/1;
+  }
+  body main .view-3 .view3-info {
+    transform: translate(-50%, -15%);
+    padding: 4rem;
+  }
+  body main .view-3 .view3-info .view3-part1 > h1 {
+    font-size: 4rem;
+  }
+  body main .view-3 .view3-info .view-3-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  body main .view-3 .view3-info .view-3-container .view3-elem {
+    width: 45%;
+  }
+  body main .view-4 {
+    padding: 0 3rem;
+  }
+  body main .view-4 .view4-container {
+    display: grid;
+    border-radius: 20px;
+    grid-template-areas: "a b b b b" "c b b b b";
+  }
+  body main .view-4 .view4-container .view4-elem1 {
+    grid-area: a;
+  }
+  body main .view-4 .view4-container .view4-elem1 h1 {
+    font-size: 2.5rem;
+  }
+  body main .view-4 .view4-container .view4-elem2 {
+    grid-area: b;
+    border-end-end-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+  }
+  body main .view-4 .view4-container .view4-elem2 .blur {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .view-4 .view4-container .view4-elem2 .blur h3 {
+    font-size: 2.3rem;
+    margin-top: auto;
+  }
+  body main .view-4 .view4-container .view4-elem2 .blur p {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  body main .view-4 .view4-container .view4-elem2 .blur h4 {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1rem 2rem;
+  }
+  body main .view-4 .view4-container .view4-elem3 {
+    grid-area: c;
+  }
+  body main .view-6 {
+    padding: 3rem;
+  }
+  body main .view-6 .view6-container-a .view6-elem-a {
+    padding: 4rem;
+  }
+  body main .view-6 .view6-container-a .view6-elem-a h1 {
+    font-size: 3rem;
+  }
+  body main .view-6 .view6-container-a .view6-elem-a p {
+    font-size: 1rem;
+  }
+  body main .view-6 .view6-container-a .view6-elem-b {
+    aspect-ratio: 1/0.5;
+  }
+  body main .view-6 .view6-container-b .view6-elem-a {
+    padding: 4rem;
+  }
+  body main .view-6 .view6-container-b .view6-elem-a h1 {
+    font-size: 3rem;
+  }
+  body main .view-6 .view6-container-b .view6-elem-a p {
+    font-size: 1rem;
+  }
+  body main .view-6 .view6-container-b .view6-elem-b {
+    aspect-ratio: 1/0.5;
+  }
+  body main .view-7 .view7-container-b {
+    padding: 4rem;
+  }
+  body main .view-7 .view7-container-b h2 {
+    padding: 0.5rem;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  body main .view-7 .view7-container-b h1 {
+    font-size: 4rem;
+  }
+  body main footer {
+    padding: 4rem;
+  }
+  body main footer .container-1 {
+    flex-direction: row;
+    gap: 4rem;
+  }
+}
+@media (min-width: 1200px) {
+  body main nav {
+    padding: 2rem 3rem;
+  }
+  body main .view-1 > h1 {
+    font-size: 6rem;
+    padding: 0 10rem;
+  }
+  body main .view-1 > p {
+    padding: 2rem 20rem;
+  }
+  body main .view-1 .view-1-container {
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+  }
+  body main .view-1 .view-1-container .home-hero-1 {
+    aspect-ratio: 2/2.25;
+    border-radius: 50px;
+  }
+  body main .view-1 .view-1-container .home-hero-2 {
+    aspect-ratio: 2/2.25;
+    border-radius: 50px;
+  }
+  body main .view-1 .view-1-container .home-hero-3 {
+    aspect-ratio: 2/2.25;
+    border-radius: 50px;
+  }
+  body main .view-2 > p {
+    padding: 1rem 15rem;
+  }
+  body main .view-2 .view-2-container {
+    padding: 3rem 5rem;
+  }
+  body main .view-2 .view-2-container .view-2-elem {
+    width: 35%;
+  }
+  body main .view-3 {
+    padding: 0 4rem;
+    padding-top: 8rem;
+  }
+  body main .view-3 .view3-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  body main .view-3 .view3-info .view3-part1 {
+    padding: 3rem 2rem;
+  }
+  body main .view-4 .view4-container .view4-elem2 {
+    aspect-ratio: 1/1;
+  }
+  body main .view-6 {
+    display: flex;
+    padding: 3rem;
+    gap: 2rem;
+  }
+  body main .view-6 .view6-container-a {
+    width: 50%;
+  }
+  body main .view-6 .view6-container-a .view6-elem-b {
+    width: 100%;
+    height: 50%;
+  }
+  body main .view-6 .view6-container-b {
+    width: 50%;
+  }
+  body main .view-6 .view6-container-b .view6-elem-b {
+    width: 100%;
+    height: 50%;
+  }
+  body main .view-7 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  body main .view-7 .view7-container-b {
+    width: 90%;
+  }
+  body main footer {
+    padding: 4rem;
+  }
+  body main footer .container-1 {
+    width: 100%;
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=style.css.map */
