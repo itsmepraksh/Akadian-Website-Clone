@@ -1,16 +1,16 @@
 @font-face {
     font-family: Graphik-Medium;
-    src: url("/assets/fonts/Graphik-Medium.woff");
+    src: url("assets/fonts/Graphik-Medium.woff");
 }
 
 @font-face {
     font-family: Graphik-Regular;
-    src: url("/assets/fonts/Graphik-Regular.woff");
+    src: url("assets/fonts/Graphik-Regular.woff");
 }
 
 @font-face {
     font-family: Graphik-Semibold;
-    src: url("/assets/fonts/Graphik-Semibold.woff");
+    src: url("assets/fonts/Graphik-Semibold.woff");
 }
 
 
@@ -132,7 +132,7 @@ body {
 
                 .home-hero-1 {
                     @include hero-img;
-                    background-image: url(/assets/images/home-hero-bkpr-508x800.jpg);
+                    background-image: url(assets/images/home-hero-bkpr-508x800.jpg);
                     background-position: 0% 50%;
                     rotate: -4deg;
 
@@ -145,7 +145,7 @@ body {
                     margin-top: -1rem;
                     margin-bottom: 1rem;
                     @include hero-img;
-                    background-image: url(/assets/images/home-hero-af-508x800.jpg);
+                    background-image: url(assets/images/home-hero-af-508x800.jpg);
                     background-position: 0% 40%;
                     z-index: 9;
 
@@ -156,7 +156,7 @@ body {
 
                 .home-hero-3 {
                     @include hero-img;
-                    background-image: url(/assets/images/home-hero-smb-508x800.jpg);
+                    background-image: url(assets/images/home-hero-smb-508x800.jpg);
                     rotate: 4deg;
                     background-position: 0% 50%;
 
